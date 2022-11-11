@@ -1,0 +1,163 @@
+body {
+    background-image: url("Images/Uttarakhand Back.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#Navbar ul {
+    background-color: rgb(21, 182, 21, 0.5);
+    overflow: auto;
+    list-style: none;
+    border-radius: 35px;
+}
+#Navbar ul:hover {
+    background-color: rgb(65, 65, 239);
+    
+}
+#Navbar li {
+    font-size: 20px;
+    float: left;
+    padding: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+#Navbar li:hover {
+    background-color: rgb(21, 182, 21);
+}
+.LeftImages {
+    
+    float : left;
+    margin-right : 10px;
+    border : 5px solid green;
+    padding : 10px;
+}
+.RightImages {
+    float : right;
+    margin-left : 10px;
+    border : 5px solid green;
+    padding : 10px;
+}
+#divflex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#Div1 {
+    background-color: rgba(255, 255, 255, 0.69);
+    margin: 0px 75px 0px 75px;
+    padding: 10px;
+}
+.Cards {
+    background-color: rgba(255, 255, 255, 0.69);
+    display : flex;
+    align-items: flex-start;
+    margin: 0px -20px;
+    width: 1350px;
+}
+.Card {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding : 10px;
+    margin : 10px;
+    border : solid green 2px;
+    height: 700px;
+    width: 410px;
+}
+p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.para2 {
+    background: rgb(173, 252, 55, 0.25);
+    padding: 4px;
+    border: 4px solid rgb(106, 171, 8, 0.5);
+    color: black;
+    clear: both;
+}
+
+.divhead {
+    display: flex;
+    justify-content: center;
+}
+#divcards {
+    margin: 100px;
+}
+.borderhead {
+    width: 50%;
+    padding: 25px;
+    border: 5px solid green;
+}
+h1, h2, h3 {
+    padding: 10px;
+    font-family: 'Fasthand', cursive;
+}
+h1 {
+    font-size: 50px;
+    line-height: 25px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+    line-height: 10px;
+}
+summary {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+table {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.CardHeading {
+    font-family: 'Montserrat', sans-serif;
+}
+#FootLast {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Montserrat', sans-serif;
+}
+#Booking {
+    width: 50%;
+    padding: 30px;
+    border: 5px solid green;
+    color: white;
+    font-family: 'Fasthand', cursive;
+    font-size: 45px;
+}
+#Destinations {
+    width: 50%;
+    padding: 1px;
+    border: 5px solid green;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rgb(251, 251, 28);
+}
+a:active {
+    
+}
+a:visited {
+
+}
+#book {
+    background-color: rgb(21, 182, 21);
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px;
+}
+#book:hover {
+    background-color: rgb(65, 65, 239);
+}
+.link {
+    
+    background-color: rgb(18, 19, 18);
+    cursor: pointer;
+
+}
